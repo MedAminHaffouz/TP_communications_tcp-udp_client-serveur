@@ -1,0 +1,6 @@
+Entrez la requête HTTP (ex: GET / HTTP/1.1): Requête envoyée: GET / HTTP/1.1
+
+HTTP/1.1 200 OK
+Content-Type: text/plain
+
+Bonjour du serveur local !

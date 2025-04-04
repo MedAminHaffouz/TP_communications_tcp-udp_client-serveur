@@ -1,0 +1,4 @@
+Serveur en écoute sur le port 8888...
+Message reçu: GET / HTTP/1.1
+
+Réponse envoyée.
