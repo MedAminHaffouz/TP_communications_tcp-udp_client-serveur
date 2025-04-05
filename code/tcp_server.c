@@ -48,7 +48,6 @@ int main() {
         timeinfo = localtime(&rawtime);
         strftime(buffer, sizeof(buffer), "Il est %H:%M:%S\n", timeinfo);
         send(new_socket, buffer, strlen(buffer), 0);
-        sleep(1); // Pause de 1 seconde entre chaque message
     }
 
     close(new_socket);
