@@ -22,7 +22,7 @@ int main() {
     // Configuration du serveur
     server.sin_family = AF_INET;
     server.sin_port = htons(PORT);
-    server.sin_addr.s_addr = inet_addr("127.0.0.1");
+    server.sin_addr.s_addr = inet_addr("192.168.100.4");
 
     // Connexion au serveur
     if (connect(sock, (struct sockaddr *)&server, sizeof(server)) < 0) {
